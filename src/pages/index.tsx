@@ -13,19 +13,34 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${inter.className} bg-[#0F172A]`}>
-        {/* Header */}
-        <header className="flex flex-col items-center justify-center h-screen">
-          <h1 className="text-4xl font-bold text-center text-blue">
-            Hajar Aswad
-          </h1>
-          <p className="text-xl text-center text-gray-light">
-            Fullstack Developer
-          </p>
-          {/* <input className="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-full text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Filter projects" placeholder="Filter projects..."></input> */}
-          <button className='bg-slate-700 text-gray-light rounded-md p-4 shadow-md inset-16'>testes</button>
-        </header>
+      <main className={`${inter.className} bg-[#0F172A] px-6 md:px-40`}>
+        <header className='h-screen flex flex-col'>
+            <nav className='h-16 w-full flex items-center justify-between py-4'>
+              <h1 className='text-blue'>Hajar Aswad</h1>
+              <div className='flex items-center space-x-6'>
+                <ul className='flex space-x-6 text-gray-light'>
+                  <li>Home</li>
+                  <li>Experience</li>
+                  <li>Blog</li>
+                </ul>
+                <div>
+                  <button className='bg-blue text-gray-light py-2 px-4 rounded-md shadow-sm inset-9'>Resume</button>
+                </div>
+              </div>
+            </nav>
 
+            <div className='w-full h-full justify-center items-center flex'>
+              <div className='flex flex-col items-center space-y-4'>
+                <h1 className='text-6xl text-gray-light'>
+                  Hajar <span className='text-blue'>Aswad</span>
+                </h1>
+                <h2 className='text-2xl text-gray-light'>Frontend Developer</h2>
+                <p className='text-gray text-center'>
+                Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX
+                </p>
+              </div>
+            </div>
+        </header>
       </main>
     </>
   )
