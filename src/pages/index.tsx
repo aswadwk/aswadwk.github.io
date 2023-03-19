@@ -15,31 +15,31 @@ export default function Home() {
       </Head>
       <main className={`${inter.className} bg-[#0F172A] px-6 md:px-40`}>
         <header className='h-screen flex flex-col'>
-            <nav className='h-16 w-full flex items-center justify-between py-4'>
-              <h1 className='text-blue'>Hajar Aswad</h1>
-              <div className='flex items-center space-x-6'>
-                <ul className='flex space-x-6 text-gray-light'>
-                  <li>Home</li>
-                  <li>Experience</li>
-                  <li>Blog</li>
-                </ul>
-                <div>
-                  <button className='bg-blue text-gray-light py-2 px-4 rounded-md shadow-sm inset-9'>Resume</button>
-                </div>
-              </div>
-            </nav>
-
-            <div className='w-full h-full justify-center items-center flex'>
-              <div className='flex flex-col items-center space-y-4'>
-                <h1 className='text-6xl text-gray-light'>
-                  Hajar <span className='text-blue'>Aswad</span>
-                </h1>
-                <h2 className='text-2xl text-gray-light'>Frontend Developer</h2>
-                <p className='text-gray text-center'>
-                Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX
-                </p>
+          <nav className='h-16 w-full flex items-center justify-between py-4'>
+            <h1 className='text-blue'>Hajar Aswad</h1>
+            <div className='flex items-center space-x-6'>
+              <ul className='flex space-x-6 text-gray-light'>
+                <li>Home</li>
+                <li>Experience</li>
+                <li>Blog</li>
+              </ul>
+              <div>
+                <button className='bg-blue text-gray-light py-2 px-4 rounded-md shadow-sm inset-9'>Resume</button>
               </div>
             </div>
+          </nav>
+
+          <div className='w-full h-full justify-center items-center flex'>
+            <div className='flex flex-col items-center space-y-4'>
+              <h1 className='text-6xl text-gray-light'>
+                Hajar <span className='text-blue'>Aswad</span>
+              </h1>
+              <h2 className='text-2xl text-gray-light'>Fullstack Developer</h2>
+              <p className='text-gray text-center w-full md:w-6/12'>
+                I’m currently learning PHP, Go, JavaScript, clean code, distributed computing, and performance improvement.
+              </p>
+            </div>
+          </div>
         </header>
       </main>
     </>
